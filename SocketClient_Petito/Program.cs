@@ -63,7 +63,7 @@ namespace SocketClient_Petito
                     }
                     Array.Clear(buff, 0, buff.Length);
                     receviedBytes = client.Receive(buff);
-
+                     
                     Console.WriteLine("SI: " + receiveString);
 
 
