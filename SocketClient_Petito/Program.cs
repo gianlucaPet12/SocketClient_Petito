@@ -65,7 +65,7 @@ namespace SocketClient_Petito
                     receviedBytes = client.Receive(buff);
                      
                     Console.WriteLine("SI: " + receiveString);
-
+                     
 
                  }
             }
